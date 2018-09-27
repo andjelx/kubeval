@@ -2,8 +2,10 @@ package kubeval
 
 import (
 	"bytes"
-	"gzip"
+	"compress/gzip"
 	"errors"
+	"io"
+	"os"
 	"fmt"
 	"runtime"
 	"strings"
